@@ -10,7 +10,10 @@
 
 SRC	=	sources/main.c \
 		sources/fdf.c \
-		sources/key.c
+		sources/key.c \
+		sources/draw_fdf.c \
+		sources/draw_line.c \
+		sources/matrice.c
 
 
 OBJ	=	$(SRC:.c=.o)
